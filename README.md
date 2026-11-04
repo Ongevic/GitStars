@@ -4,7 +4,7 @@ Interactive Jupyter notebook for browsing, filtering, curating, and opening your
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](C:\Users\chich\Downloads\GitStars\LICENSE).
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
 
 ## Requirements
 
@@ -70,12 +70,12 @@ echo %GITHUB_TOKEN%
 
 ## Open the notebook
 
-Open [GitStars.ipynb](C:\Users\chich\Downloads\GitStars\GitStars.ipynb) in Jupyter or VS Code.
+Open [GitStars.ipynb](GitStars.ipynb) in Jupyter or VS Code.
 
 PowerShell:
 
 ```powershell
-cd C:\Users\chich\Downloads\GitStars
+cd path\to\GitStars
 jupyter notebook
 ```
 
@@ -95,19 +95,19 @@ The notebook lets you:
 Open the notebook in VS Code:
 
 ```powershell
-code C:\Users\chich\Downloads\GitStars\GitStars.ipynb
+code GitStars.ipynb
 ```
 
 Open the whole project folder:
 
 ```powershell
-code C:\Users\chich\Downloads\GitStars
+code .
 ```
 
 If you want to inspect the raw notebook JSON in PowerShell:
 
 ```powershell
-Get-Content C:\Users\chich\Downloads\GitStars\GitStars.ipynb
+Get-Content GitStars.ipynb
 ```
 
 If you want the notebook UI instead of raw JSON, open it in VS Code or Jupyter.
@@ -115,7 +115,7 @@ If you want the notebook UI instead of raw JSON, open it in VS Code or Jupyter.
 ## Suggested workflow
 
 1. Set `GITHUB_TOKEN` in PowerShell or Command Prompt.
-2. Open [GitStars.ipynb](C:\Users\chich\Downloads\GitStars\GitStars.ipynb).
+2. Open [GitStars.ipynb](GitStars.ipynb).
 3. Run the setup cells.
 4. Adjust `QUERY`, `LANGUAGE`, `MIN_STARS`, `SORT_BY`, and `TOP_N`.
 5. Pick a repo from the curated results.

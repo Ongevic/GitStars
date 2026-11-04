@@ -14,3 +14,6 @@ stars.csv
 stars.md
 downloads/
 clones/
+.env
+.ipynb_checkpoints/
+*-README.md
